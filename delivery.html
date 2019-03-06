@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>delivery</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+fieldset {Width:550px;
+ border-radius:20px; 
+ border:solid transparent;
+ }
+ pre{
+     background:brown;
+	 }
+	 font{
+	        color:yellow;
+			}
+			body
+{background-color:green;}
+h1{
+color:Yellow;
+}
+.vl {
+  border-left: 2px dashed white;
+  height: 30px;
+  
+}
+a:hover{
+        border:2px solid brown;
+		background-color:yellow;
+		color:red;
+		}
+a{
+    color:red;
+	background-color:pink;
+	}
+
+
+</style>
+</head>
+<body> 
+<pre>   <img src="gd.jpg" alt="img not found" height="100px" width="100px"/>                                          <img src="d.png" alt="img not found" height="100px" width="500px"/>                                        <img src="bd.png" alt="img not found" height="100px" width="100px"/></pre><br>
+<a href="avail.html">vegetable</a>
+<center>
+<fieldset>
+<pre > 
+<h1 > Delivery page </h1>            
+<form name="myForm" onsubmit="myFunction()" method="post">
+<font>             customer name:           <input type="text" name="customername" placeholder="customer name" Required><br>
+             Delivery address:        <input type="text" name="da"  placeholder="Delivery address" color="brown" Required><br>
+             Conform delivery address:<input type="text" name="cda" placeholder="conform delivery address" color="brown" Required><br>
+             Phonenumber:             <input type="text" name="pn"  placeholder="Phonenumber" color="brown" Required><br>
+             Paymentmode:   <input type="radio" name="cc" value="Credit card">Credit card<input type="radio" name="DD" value="Debit card">Debit card<input type="radio" name="c" value="cash">Cash</font>
+			 <button onclick="myFunction()">submit</button>
+
+<p id="demo"></p>
+
+
+</form></pre>
+</fieldset>
+</center>
+<table style="margin-left:300px;background-color:#4d0000;color:white;;margin-top:20px";>
+<tr><th >CONTACT NO:</th>                        <th class="vl"   &emsp; >  &emsp; EMAIL ADDRESS:</th>                              <th class="vl">  &emsp; ADDRESS:</th>   <th class="vl">  &emsp; Social Media:</th></tr>                                          
+<tr><td><b>9987564361</b></td>                   <td class="vl"   &emsp; ><b>  &emsp; heyveg@gmail.com</b></td>                 <td class="vl"><b>&emsp; no:116 collector colony,&emsp;cmbt,chennai:94</b></td>  <td class="vl"><b>&emsp;  <img src="whatsup.png" alt="image not found" height="30px" width="30px"> <img src="facebook.png" alt="image not found" height="30px" width="30px"> <img src="instagram.jpg" alt="image not found" height="30px" width="30px"> <img src="twitter.jpg" alt="image not found" height="30px" width="30px"> &emsp;</b></td>     </tr>
+</table>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="signup.html"> <img src="signup.jpg" alt="image not found" height="30px" width="50px"/><a><a href="login.html"> <img src="login.png" alt="image not found" height="30px" width="50px"/></a>
+
+<script>
+function myFunction() {
+if (!/^[a-zA-Z]*$/g.test(document.myForm.customername.value)) {
+        alert("Invalid characters, Enter only Alphabets for Name");
+        document.myForm.customername.focus();
+        return false;
+    }
+if (isNaN(document.myForm.Number.value))
+{
+alert('Invalid Phonenumber');
+return false;
+}
+ var txt;
+ if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+
+
+
+</script>
+
+
+</body>
+</html>

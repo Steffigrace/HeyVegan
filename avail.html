@@ -1,0 +1,100 @@
+<html>
+<head><title>avail</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+.dropbtn {
+  background-color:black;
+  color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color:red;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color:yellow;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+ 
+ 
+}
+
+.dropdown-content a {
+background:green;
+font-weight:bold;
+font-family:Snap ITC;
+  color:brown;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color:yellow;
+color:brown;
+}
+.button:{
+             background:yellow;
+			 }
+
+.show {display: block;}
+		 h1{
+    font-family:Bradley Hand ITC;
+	font-size:60;
+	font-weight:bold;
+	color:#4d0000;
+	text-align:center;
+	float:top;
+}
+
+</style>
+
+</head>
+<body background="bg5.jpg">                                      
+<div class="dropdown"><button onclick="myFunction()" class="dropbtn">About Veg</button><div id="myDropdown" class="dropdown-content"><a href="#pd">Hi Customers..,<br><pre>    we serve fresh vegetables at really very low and affordable price<br> We were damn sure that no other online vegies shop can beat us in price <br>and yes we have so many offers avilable to you so that do signin and <br><benjoy our service peeps....:)100% health quranteeddd becozzz 
+guess what we do have concern on your health<br> Last but not least.......<br>
+                     "Buy fresh and live fresh"<br><br><br>                          THANKYOU:)</a></pre>  
+</div></div><br> <a href="delivery.html"><img src="buy.jpg" width="105" height="56" title="buy" alt="image not found"></a>
+<h1 align="center" color="brown">VEG FOR YOU</h1>
+<pre>         <img src="carrot.jpg" alt="image not found" height="250px" width="300px">  <img src="beetroot.jpg" alt="image not found" height="250px" width="300px">  <img src="corn.jpg" alt="image not found" height="250px" width="300px">  <img src="celery.jpg" alt="image not found" height="250px" width="300px"> <br>         <img src="cucumber.jpg" alt="image not found" height="250px" width="300px">  <img src="garlic.jpg" alt="image not found" height="250px" width="300">  <img src="onion.jpg" alt="image not found" height="250px" width="300px">  <img src="pumpkin.jpg" alt="image not found" height="250px" width="300px"><br>         <img src="potato.jpg" alt="image not found" height="250px" width="300px">  <img src="mushroom.png" alt="image not found" height="250px" width="300px">  <img src="red pepper.jpg" alt="image not found" height="250px" width="300px">  <img src="tomato.png" alt="image not found" height="250px" width="300px"><br>         <img src="broccoli.jpg" alt="image not found" height="250px" width="300px">  <img src="arrowroot.jpg" alt="image not found" height="250px" width="300px">  <img src="alfala Sprouts.jpg" alt="image not found" height="250px" width="300px">  <img src="basil.jpg" alt="image not found" height="250px" width="300px"><br>         <img src="beans.jpg" alt="image not found" height="250px" width="300px">  <img src="chives.jpg" alt="image not found" height="250px" width="300px">  <img src="coriander.jpg" alt="image not found" height="250px" width="300px">  <img src="cf.jpg" alt="image not found" height="250px" width="300px"></pre>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+ 
+</script>
+
+</body>
+
+</html>
