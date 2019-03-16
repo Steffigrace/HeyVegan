@@ -29,29 +29,29 @@ a:hover{
 		color:red;
 		}
 a{
-    color:red;
-	background-color:pink;
+    color:#70db70;
+	background-color:#e60000;
 	}
+
 
 
 </style>
 </head>
-<body> 
+<body> <form name="myForm" method="post" action="del.php">
 <pre>   <img src="gd.jpg" alt="img not found" height="100px" width="100px"/>                                          <img src="d.png" alt="img not found" height="100px" width="500px"/>                                        <img src="bd.png" alt="img not found" height="100px" width="100px"/></pre><br>
-<a href="avail.html">vegetable</a>
 <center>
 <fieldset>
 <pre > 
-<h1 > Delivery page </h1>            
+<h1 >DELIVERY DETAILS</h1>            
 <form name="myForm" onsubmit="myFunction()" method="post">
 <font>             customer name:           <input type="text" name="customername" placeholder="customer name" Required><br>
-             Delivery address:        <input type="text" name="da"  placeholder="Delivery address" color="brown" Required><br>
-             Conform delivery address:<input type="text" name="cda" placeholder="conform delivery address" color="brown" Required><br>
-             Phonenumber:             <input type="text" name="pn"  placeholder="Phonenumber" color="brown" Required><br>
-             Paymentmode:   <input type="radio" name="cc" value="Credit card">Credit card<input type="radio" name="DD" value="Debit card">Debit card<input type="radio" name="c" value="cash">Cash</font>
-			 <button onclick="myFunction()">submit</button>
-
-<p id="demo"></p>
+             Delivery address:        <input type="text" name="deliveryaddress1"  placeholder="Delivery address" color="brown" Required><br>
+             Conform delivery address:<input type="text" name="deliveryaddress2" placeholder="conform delivery address" color="brown" Required><br>
+             Phonenumber:             <input type="text" name="pho"  placeholder="Phonenumber" color="brown" Required><br>
+             Emailid:                 <input type="text" name="email"  placeholder="Emailid" color="brown" Required><br><br>
+         </font><br>
+ <button onclick="myFunction()">submit</button><br><br><br><br>
+			                                 
 
 
 </form></pre>
@@ -61,8 +61,8 @@ a{
 <tr><th >CONTACT NO:</th>                        <th class="vl"   &emsp; >  &emsp; EMAIL ADDRESS:</th>                              <th class="vl">  &emsp; ADDRESS:</th>   <th class="vl">  &emsp; Social Media:</th></tr>                                          
 <tr><td><b>9987564361</b></td>                   <td class="vl"   &emsp; ><b>  &emsp; heyveg@gmail.com</b></td>                 <td class="vl"><b>&emsp; no:116 collector colony,&emsp;cmbt,chennai:94</b></td>  <td class="vl"><b>&emsp;  <img src="whatsup.png" alt="image not found" height="30px" width="30px"> <img src="facebook.png" alt="image not found" height="30px" width="30px"> <img src="instagram.jpg" alt="image not found" height="30px" width="30px"> <img src="twitter.jpg" alt="image not found" height="30px" width="30px"> &emsp;</b></td>     </tr>
 </table>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="signup.html"> <img src="signup.jpg" alt="image not found" height="30px" width="50px"/><a><a href="login.html"> <img src="login.png" alt="image not found" height="30px" width="50px"/></a>
-
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="signup.php"> <img src="signup.jpg" alt="image not found" height="30px" width="50px"/><a><a href="login.php"> <img src="login.png" alt="image not found" height="30px" width="50px"/></a>
+</form>
 <script>
 function myFunction() {
 if (!/^[a-zA-Z]*$/g.test(document.myForm.customername.value)) {
